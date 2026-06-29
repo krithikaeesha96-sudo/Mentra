@@ -1,89 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mentra | Where Confused Students Find Direction</title>
-<link rel="stylesheet" href="style.css">
-<script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentra | Where Confused Students Find Direction</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+
 </head>
+
 <body>
 
 <nav class="navbar">
-  <div class="logo">Mentra</div>
-  <ul>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+
+    <div class="logo">
+        Mentra
+    </div>
+
+    <ul>
+
+        <li><a href="#features">Features</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
 </nav>
+
+<header class="hero">
 
 <div class="hero-content">
 
-<p class="small-title">
-🚀 India's Student Mentoring Platform
-</p>
+<div class="hero-badge">
+
+🚀 Personalized Mentoring Platform
+
+</div>
 
 <h1>
-Never <span>Prepare Alone</span> Again.
-</h1>
 
-<p class="hero-text">
+Where <span>Confused Students</span>
 
-Feeling confused?
-
-Burnt out?
-
-Unable to focus?
-
-Preparing for CA, CMA, CS, NEET, UPSC, JEE or any competitive exam?
-
-Mentra provides personalized guidance to help you move forward with clarity and confidence.
-
-</p>
-
-<div class="query-box">
-
-<h3>What's on your mind today?</h3>
-
-<textarea placeholder="Example:
-
-I'm preparing for CA Inter.
-
-I failed my previous attempt.
-
-I'm unable to stay consistent and don't know whether to attempt September or January.
-
-Describe your situation here..."></textarea>
-
-<button class="btn">
-
-Get My Guidance →
-
-</button>
-
-</div>
-
-</div>
+Find Direction.
 
 </h1>
 
-<p class="subtitle">
-Feeling confused, stressed or burnt out during your CA, CMA, CS, NEET, UPSC, JEE or other competitive exam preparation?
+<p class="hero-description">
 
-Mentra helps you gain clarity, confidence and consistency through personalized mentoring.
+Preparing for CA, CMA, CS, UPSC, NEET, JEE, CAT or any competitive examination?
+
+Mentra provides personalized guidance, planning and mentorship to help you stay consistent and achieve your goals.
+
 </p>
 
 <div class="hero-buttons">
 
 <button class="btn" onclick="openPopup()">
-    Share Your Problem
-</button>
+
 Share Your Problem
-</a>
+
+</button>
 
 <a href="#features" class="btn secondary">
+
 Explore Mentra
+
 </a>
 
 </div>
@@ -92,74 +78,146 @@ Explore Mentra
 
 </header>
 
-<section class="stats">
-<div><h2>500+</h2><p>Aspirants Supported*</p></div>
-<div><h2>8+</h2><p>Competitive Exams</p></div>
-<div><h2>24 hrs</h2><p>Target Response</p></div>
-</section>
+<section id="features" class="features">
 
-<section id="features">
 <h2>Why Mentra?</h2>
-<div class="cards">
-<div class="card"><h3>🎯 Personalized Guidance</h3><p>Action plans tailored to each student's situation.</p></div>
-<div class="card"><h3>📅 Study Planning</h3><p>Clear daily and weekly study schedules.</p></div>
-<div class="card"><h3>🤝 Peer Mentoring</h3><p>Support from someone who understands the journey.</p></div>
-<div class="card"><h3>🚀 Accountability</h3><p>Stay consistent and track progress.</p></div>
+
+<div class="feature-grid">
+
+<div class="card">
+
+<h3>📖 Personalized Guidance</h3>
+
+<p>Solutions based on your exact preparation stage.</p>
+
 </div>
+
+<div class="card">
+
+<h3>📅 Study Planning</h3>
+
+<p>Daily and weekly plans designed specifically for you.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎯 Motivation</h3>
+
+<p>Stay consistent through accountability and mentorship.</p>
+
+</div>
+
+<div class="card">
+
+<h3>💬 One-to-One Support</h3>
+
+<p>Discuss your preparation and receive personalized direction.</p>
+
+</div>
+
+</div>
+
 </section>
 
 <section id="about">
+
 <h2>About Mentra</h2>
-<p>Founded by <strong>Krithika</strong>, Mentra aims to help competitive exam aspirants overcome confusion, regain confidence and prepare with clarity.</p>
+
+<p>
+
+Founded by <strong>Krithika</strong>, Mentra is built to help competitive exam aspirants overcome confusion, regain confidence and prepare with clarity.
+
+</p>
+
 </section>
 
 <section id="contact">
+
 <h2>Contact</h2>
+
 <p><strong>Email:</strong> eshakrithika18@gmail.com</p>
+
 <p><strong>Phone:</strong> +91 78453 42702</p>
+
 <p><strong>Location:</strong> Chennai, Tamil Nadu</p>
-<p class="note">Mentra provides peer mentoring and academic guidance. It is not a mental health treatment service.</p>
+
 </section>
 
 <footer>
-<p>© 2026 Mentra • Clarity. Confidence. Consistency.</p>
+
+<p>
+
+© 2026 Mentra • Clarity. Confidence. Consistency.
+
+</p>
+
 </footer>
+
+<!-- POPUP -->
+
 <div id="popup" class="popup">
 
-  <div class="popup-content">
+<div class="popup-content">
 
-    <span class="close" onclick="closePopup()">&times;</span>
+<span class="close" onclick="closePopup()">
 
-    <h2>Share Your Problem</h2>
+&times;
 
-    <p>
-      Tell us about your preparation and we'll help you find the right direction.
-    </p>
+</span>
 
-    <input type="text" placeholder="Your Name">
+<h2>
 
-    <input type="email" placeholder="Email Address">
+Share Your Problem
 
-    <select>
-      <option>Select Exam</option>
-      <option>CA</option>
-      <option>CMA</option>
-      <option>CS</option>
-      <option>NEET</option>
-      <option>UPSC</option>
-      <option>JEE</option>
-      <option>CAT</option>
-      <option>Other</option>
-    </select>
+</h2>
 
-    <textarea placeholder="Describe your situation here..."></textarea>
+<p>
 
-    <button class="submit-btn">
-      Submit
-    </button>
+Tell us about your preparation.
 
-  </div>
+The more details you provide, the better guidance we can offer.
+
+</p>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<select>
+
+<option>Select Examination</option>
+
+<option>CA</option>
+
+<option>CMA</option>
+
+<option>CS</option>
+
+<option>NEET</option>
+
+<option>UPSC</option>
+
+<option>JEE</option>
+
+<option>CAT</option>
+
+<option>Other</option>
+
+</select>
+
+<textarea placeholder="Describe your problem here..."></textarea>
+
+<button class="submit-btn">
+
+Submit
+
+</button>
 
 </div>
+
+</div>
+
 </body>
+
 </html>
