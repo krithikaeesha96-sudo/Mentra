@@ -76,7 +76,9 @@ Mentra helps you gain clarity, confidence and consistency through personalized m
 
 <div class="hero-buttons">
 
-<a href="#contact" class="btn">
+<button class="btn" onclick="openPopup()">
+    Share Your Problem
+</button>
 Share Your Problem
 </a>
 
@@ -122,6 +124,42 @@ Explore Mentra
 <footer>
 <p>© 2026 Mentra • Clarity. Confidence. Consistency.</p>
 </footer>
+<div id="popup" class="popup">
 
+  <div class="popup-content">
+
+    <span class="close" onclick="closePopup()">&times;</span>
+
+    <h2>Share Your Problem</h2>
+
+    <p>
+      Tell us about your preparation and we'll help you find the right direction.
+    </p>
+
+    <input type="text" placeholder="Your Name">
+
+    <input type="email" placeholder="Email Address">
+
+    <select>
+      <option>Select Exam</option>
+      <option>CA</option>
+      <option>CMA</option>
+      <option>CS</option>
+      <option>NEET</option>
+      <option>UPSC</option>
+      <option>JEE</option>
+      <option>CAT</option>
+      <option>Other</option>
+    </select>
+
+    <textarea placeholder="Describe your situation here..."></textarea>
+
+    <button class="submit-btn">
+      Submit
+    </button>
+
+  </div>
+
+</div>
 </body>
 </html>
